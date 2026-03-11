@@ -43,8 +43,8 @@ The two main problems I ran into today were accidentally forgetting that the fan
 
 # 10/03/2025
 It's getting kind of hard to journal now, as most of the time is wasted on small CAD stuff (eg. an error here, go back and fix it, rethink X feature so it's "cleaner", etc). Anyways, after experimenting some more with a 3010 I've decided to go with a 2510 after all, as I think I can manage mounting it. So here's what I currently have, after several more hours.
-[img](pics/pic11.png)
-[img](pics/pic12.png)
-[img](pics/pic13.png)
-[img](pics/pic14.png)
-[img](pics/pic15.png)
+![img](pics/pic11.png)
+![img](pics/pic12.png)
+![img](pics/pic13.png)
+![img](pics/pic14.png)
+![img](pics/pic15.png)
