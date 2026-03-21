@@ -20,7 +20,7 @@
 
   </details>
 - High nozzle visibility.
-- Uses a modified Stinger tensioner block.
+- Uses a modified Stinger tensioner block and a Stinger belt path.
   
 # Gallery
 Coming soon!   
@@ -46,4 +46,6 @@ Coming soon!
 # Credits
 - The [Archetype Mjolnir](https://github.com/Armchair-Heavy-Industries/Archetype/tree/main/Archetype%20-%20Mjolnir) for referencing the rough fan position and the ducts.
 - The [LH Stinger](https://github.com/lhndo/LH-Stinger) for **many** references, such as the rough toohead cage dimensions, hotend placement, tensioner block, and quickdraw probe mount. 
+
+# License
 
