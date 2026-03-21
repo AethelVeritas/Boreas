@@ -1,0 +1,8 @@
+Item,Price,Source
+Gdstime 5015 24V Dual Ball 8500RPM Fan x 2,15.6,https://www.aliexpress.com/item/32865977791.html
+Gdstime 2510 24V Dual Ball 12000RPM Fan,10.2,https://www.aliexpress.com/item/1005009268854960.html
+HGX Lite Gears,28.5,https://www.aliexpress.com/item/1005004699143725.html
+Pancake Nema14 Motor,13.0,https://www.aliexpress.com/item/1005006423228157.html
+ADXL345,4.0,https://www.aliexpress.com/ssr/300000512/BundleDeals2
+6x3 Magnets,4.25,https://www.aliexpress.com/ssr/300000512/BundleDeals2
+Total,=SUM(B2:B7),
