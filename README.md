@@ -5,22 +5,22 @@
 </p>
 
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #888, transparent);">
-  
+
 # Key Features
-- Dual 5015 blowers, positioned near the nozzle using short ducts for the best airflow possible. 
-- Lightweight. All printed parts (including the probe mount but excluding the tensioner) are 55.548g using the PC/ABS material in Onshape. For reference, all the Mjolnir printed parts are about 76g using the same material.
-- Rigid. Ribs on the main front fan mount as well as separate back braces for each fan ensure rigidity. Aforementioned front fan mount (the "wings") also mounts directly through the cage and into the carriage. 
-- No frills design. Simple yet reliable design, inspired by the Archetype Mjolnir but without all the extra core objects.
+- Dual 5015 blowers, positioned near the nozzle using short ducts to achieve optimal airflow.
+- Lightweight. All printed parts (including the probe mount but excluding the tensioner) weigh 55.548g when printed in PC/ABS in Onshape. For reference, all Mjolnir printed parts are approximately 76g using the same material.
+- Rigid. Structural ribs on the main front fan mount, along with separate rear braces for each fan, ensure rigidity. The front fan mount ("wings") also mounts directly through the cage into the carriage.
+- No-frills design. A simple and reliable design inspired by the Archetype Mjolnir, but without additional unnecessary complexity.
 - Compatible with the Dragon Ace Volcano and Protoxtruder. 
 - Decent COM.  
   <details>
-    <summary></summary>
+    <summary>Show COM image</summary>
 
     ![COMreadme](pics/COMreadme.png)
 
   </details>
 - High nozzle visibility.
-- Uses a modified Stinger tensioner block. 
+- Uses a modified Stinger tensioner block.
   
 # Gallery
 Coming soon!   
