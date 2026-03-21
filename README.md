@@ -1,9 +1,16 @@
 ![mainpic](pics/aeolus_main_drawing.png)
 
-<p align="center">
-  <em>Aeolus - Greek god of the winds, also known as "Keeper of Winds".</em>
-</p>
+<div align="center">
 
+<em>Aeolus - Greek god of the winds, also known as "Keeper of Winds".</em>
+
+<br>
+
+<a href="https://rework.hackclub.com/">
+  <img src="https://img.shields.io/badge/Hack_Club-Funded-ec3750?style=for-the-badge&logo=hackclub&logoColor=ec3750" alt="Funded by Hack Club" width="180"/>
+</a>
+
+</div>
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #888, transparent);">
 
 # Key Features
