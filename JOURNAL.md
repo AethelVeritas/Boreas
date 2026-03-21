@@ -49,7 +49,7 @@ Started from scratch. What I had made till now was just a rough draft, and I had
 ![img](pics/pic14.png)
 ![img](pics/pic15.png)
 
-** Total Time Spent: 6h
+**Total Time Spent: 6h**
 
 
 # 17/03/2026 5:16 p.m. : Refining, Finishing up  
@@ -72,7 +72,8 @@ Other things I've done are moved the hotend down a bit (heatsink more centered i
 ![hotenddown](/pics/hotenddown.png)
 ![hotendbottombrace](/pics/hotendbottombrace.png)
 ![ribs](/pics/ribs.png)
-Oh and also chamfered sections of the toolhead cage to make it look nicer.  
+Oh and also chamfered sections of the toolhead cage to make it look nicer. 
+**Total Time Spent: 3h**
 
 
 
