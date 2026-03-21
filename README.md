@@ -1,7 +1,8 @@
-![mainpic](pics/Boreas_drawing.png)
+![mainpic](pics/aeolus_main_drawing.png)
 # Aeolus 
-Boreas is a toolhead made for Cartesian 3D printers with an LH Stinger style belt path. 
-
+*Aeolus - Greek god of the winds, also known as "Keeper of Winds".
+This a dual 5015 toolhead made for Cartesian 3D printers with an LH Stinger style belt path. 
+  
 # Key Features
 - Dual 5015 blowers, positioned near the nozzle using short ducts for the best airflow possible. 
 - Lightweight. All printed parts (including the probe mount but excluding the tensioner) are 55.548g using the PC/ABS material in Onshape. For reference, all the Mjolnir printed parts are about 76g using the same material.
