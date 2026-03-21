@@ -13,7 +13,12 @@
 - No frills design. Simple yet reliable design, inspired by the Archetype Mjolnir but without all the extra core objects.
 - Compatible with the Dragon Ace Volcano and Protoxtruder. 
 - Decent COM.  
-  - ![COMreadme](pics/COMreadme.png)
+  <details>
+    <summary></summary>
+
+    ![COMreadme](pics/COMreadme.png)
+
+  </details>
 - High nozzle visibility.
 - Uses a modified Stinger tensioner block. 
   
