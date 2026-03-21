@@ -24,7 +24,7 @@ Did a little work on the basic toolhead cage. Referenced both the Stinger and Tr
 
 
 
-# 05/03/2025 **12:48 a.m. : First Rough CAD Design 
+# 05/03/2026 **12:48 a.m. : First Rough CAD Design 
 ![img](/pics/dragon_mass.png)
 Spent some time assigning materials to the Dragon Ace and the fans. Speaking of the fans, I think I'll go with a 2510 axial for cooling the heatsink. Stinger uses a 4010 axial, and there's also others that use a 3010, but both the UAP and the Trinity use the 2510, and as the Trinity use the Dragon Ace Volcano as well and is considered one of the best monolith toolheads I think I'll be fine. Plus it's more compact. For the hotend, I just referenced the diagram they have on their website and assigned the most similar materials I could find in Onshape's material library, and for the fans I just set them as Nylon. Printed parts will be assigned as PC/ABS. I was worried a few days ago that I'd have to find a perfect weight/mass for each part and then custom assign that in the CAD, but after seeing how Kevin assigned his I realized that I'm overcomplicating things...the COM is just an estimate after all. I still have to assign the materials for the Stinger tensioner block, but I'll do that later as I think I might have to modify that. I also have set a rough position for the fans. I think in the end this will end up as basically a Mjolnir inspired simpler/better core bedlsinger toolhead.  
 ![img](/pics/rough_fan_pos.png) 
@@ -41,10 +41,51 @@ The two main problems I ran into today were accidentally forgetting that the fan
 
 **Total Time Spent: 5h**
 
-# 10/03/2025
-It's getting kind of hard to journal now, as most of the time is wasted on small CAD stuff (eg. an error here, go back and fix it, rethink X feature so it's "cleaner", etc). Anyways, after experimenting some more with a 3010 I've decided to go with a 2510 after all, as I think I can manage mounting it. So here's what I currently have, after several more hours.
+# 10/03/2026 10:47 p.m. : Started Again   
+Started from scratch. What I had made till now was just a rough draft, and I had made some pretty bad mistakes, so thought it'd be better to start with a clean slate. It's getting kind of hard to journal now, as most of the time is wasted on small CAD stuff (eg. an error here, go back and fix it, rethink X feature so it's "cleaner", etc). Anyways, after experimenting some more with a 3010 I've decided to go with a 2510 after all, as I think I can manage mounting it. So here's what I currently have, after several more hours. Had another free-ish day, so I was fortunate enough to be able to get some decent hours in.
 ![img](pics/pic11.png)
 ![img](pics/pic12.png)
-![img](pics/pic13.png)
+![img](pics/pic13.png)  
 ![img](pics/pic14.png)
 ![img](pics/pic15.png)
+
+** Total Time Spent: 6h
+
+
+# 17/03/2026 5:16 p.m. : Refining, Finishing up  
+  So, back at it. As I'm trying to like refine it add the final touches and all that, I'm faced with the unfortunate and rather surprising fact that I did not in fact make this very parametric. Like it seems that every time I try to adjust something towards the beginning of the timeline everything breaks. One thing I've learned is to use the Project tool sparingly. For some reason geometry made using it breaks pretty often. And my whole feature tree is one continuous mess...I really need to take a starter course or something to really understand how certain features work and why their errors happen. Nonetheless, this toolhead, while not as polished and "good" as it could have been has been an excellent learning experience, and I think I did a relatively decent job of keeping general constraints in mind, or well at least those that I knew of. 
+
+  Ok enough with the rant. So because I really didn't want to mess with the ribs for front fan mount I decided I'll have a go at the back obraces. While printing them vertically (with the side that sits on the fan on the print bed) would have been slightly easier in terms of designing them, but well that wouldn't be very strong because of the layer line orientation.So I used two extrudes and a draft to make them printable on the side. 
+![brace1](/pics/brace1.png)
+![brace2](/pics/brace2.png)
+![tensionerblock](/pics/tensioner.png)
+
+As you can see in the last picture, the printing orientation of the tensioner means that I'll have to print at least some part of the like cutout where the brace slots in the tensioner with some supports, hence why I angled the upper side (easier printing with less supports). 
+
+Another problem I ran into is the COM. I knew it wouldn't be perfect, but this still is a bit worse than I expected. Thought once I add the hardware of the fan mounts and the brace and all it would hopefully be better or something. Oh well. Asked in the LH Stinger Discord though, and LH said it would be fine. Still, it could be better. Messed a bit with the extruder after adding all of the hardware:
+![normalCOM](/pics/normalcom.png)
+![angledCOM](/pics/angledcom.png)
+While it does help a bit, I don't think it's worth the effort + the increased likelihood of a jam. Maybe in a future version, we'll see. I'm probably giving it more attention then necessary (most likely a result of staying too much in the Monolith Discord haha). 
+
+Other things I've done are moved the hotend down a bit (heatsink more centered in the axial's airflow), added a small "brace extension" to make sure the hotend is still braced in the proper section, strengthened bottom axial heat insert holes, added heat insert hole places for the screws that hold the tensioner block,  made a hex pattern remove to save a bit of weight, and added some ribs to the fan mounts. Been putting the latter off for some time, but well had to do them eventually. I think they are rigid enough but we'll see.  
+
+![hotenddown](/pics/hotenddown.png)
+![hotendbottombrace](/pics/hotendbottombrace.png)
+![ribs](/pics/ribs.png)
+Oh and also chamfered sections of the toolhead cage to make it look nicer.  
+
+
+
+# 19/03/2026 p.m. : Refining, Finishing up  
+Okie dokie, final day. Added all of the remaining hardware (such as the hotend screws), modified the tensioner block to fit the back screw brace, added yet more chamfers, and yeah that's about it. It's surprising how little that is...took such a long time too. It's really annoying how little things like this eat up your time when you think they'll be quick.
+![extruderfix](pics/extruderfix.png)
+![front1](pics/front1.png)
+Oh yeah and also fixed the extruder. Had to raise the top surface a bit as the motor was slightly clipping into the rail block. Obviously, this resulted in bunch of errors, which were annoying but fortunately not very hard to fix. Another reminder to put more thought into designing things parametrically.
+
+Also made the klicky mount (later on in the day). Here is the first version. Unfortunately, with this the way it is the right hexnut is too close to the tip of the nozzle in the Z, like 1mm. So I flipped the screws so that the hexnuts are on top. Gonna use some countersunk M3s I have instead of shoulderbolts/socket head like the rest of the screws use, as they have a lower profile. 
+![klicky1](pics/klicky1.png)
+![klicky2](pics/klicky2.png)
+![klicky3](pics/klicky3.png)
+![klicky4](pics/klicky4.png)
+
+I've been calling it "klicky", but this is technically the annex quickdraw probe that the LH Stinger uses. I wanted to get PCB Klicky initially, but I obviously couldn't have mounted it on the side, as it's much bulkier. Only option would have been mounting it behind the hotend, like most toolheads do, but since this is a Cartesian not CoreXY toolhead I don't have that much X. So this'll have to do for now. 
