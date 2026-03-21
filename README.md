@@ -1,5 +1,4 @@
 ![mainpic](pics/aeolus_main_drawing.png)
-
 <div align="center">
 
 <em>Aeolus - Greek god of the winds, also known as "Keeper of Winds".</em>
@@ -9,6 +8,11 @@
 <a href="https://rework.hackclub.com/">
   <img src="https://img.shields.io/badge/Hack_Club-Funded-ec3750?style=for-the-badge&logo=hackclub&logoColor=ec3750" alt="Funded by Hack Club" width="180"/>
 </a>
+<a href="YOUR_ONSHAPE_LINK_HERE">
+  <img src="https://img.shields.io/badge/View%20Onshape-CAD-2FBF71?style=for-the-badge&logo=onshape&logoColor=white" alt="View Onshape CAD"/>
+</a>
+
+</div>
 
 </div>
 <hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #888, transparent);">
