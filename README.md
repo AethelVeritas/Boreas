@@ -48,4 +48,4 @@ Coming soon!
 - The [LH Stinger](https://github.com/lhndo/LH-Stinger) for **many** references, such as the rough toohead cage dimensions, hotend placement, tensioner block, and quickdraw probe mount. 
 
 # License
-
+Aeolus is licensed under CERN-OHL-P-2.0

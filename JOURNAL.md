@@ -76,8 +76,8 @@ Oh and also chamfered sections of the toolhead cage to make it look nicer.
 
 
 
-# 19/03/2026 p.m. : Refining, Finishing up  
-Okie dokie, final day. Added all of the remaining hardware (such as the hotend screws), modified the tensioner block to fit the back screw brace, added yet more chamfers, and yeah that's about it. It's surprising how little that is...took such a long time too. It's really annoying how little things like this eat up your time when you think they'll be quick.
+# 19/03/2026 6:20 p.m. : Refining, Finishing up  
+Added all of the remaining hardware (such as the hotend screws), modified the tensioner block to fit the back screw brace, added yet more chamfers, and yeah that's about it. It's surprising how little that is...took such a long time too. It's really annoying how little things like this eat up your time when you think they'll be quick.
 ![extruderfix](pics/extruderfix.png)
 ![front1](pics/front1.png)
 Oh yeah and also fixed the extruder. Had to raise the top surface a bit as the motor was slightly clipping into the rail block. Obviously, this resulted in bunch of errors, which were annoying but fortunately not very hard to fix. Another reminder to put more thought into designing things parametrically.
@@ -89,3 +89,18 @@ Also made the klicky mount (later on in the day). Here is the first version. Unf
 ![klicky4](pics/klicky4.png)
 
 I've been calling it "klicky", but this is technically the annex quickdraw probe that the LH Stinger uses. I wanted to get PCB Klicky initially, but I obviously couldn't have mounted it on the side, as it's much bulkier. Only option would have been mounting it behind the hotend, like most toolheads do, but since this is a Cartesian not CoreXY toolhead I don't have that much X. So this'll have to do for now. 
+
+** Time Spent: 4h**
+
+# 20-21/03/2026 5:04 a.m. : Polishing README
+I really wanted to run some CFD, but Unfortunately that was not to be. Struggled for about two hours with Simscale trying to adapt [this tutorial](https://www.youtube.com/watch?v=1pMJQetyA4A&pp=ygUbc2ltc2NhbGUgdHV0b3JpYWwgY2ZkIGR1Y3Rz) for the rather weird 3 wall ducts the Mjolnir has (I was planning to first do CFD on the Mjolnir for practice and then do that on my toolhead and compare the results). I'll have to spend a day or two messing around with SimScale and learning how to use it properly before I'll be able to run CFD. I'll just do that later and update the ducts+readme then, cause both are pretty easy to do. 
+
+Wrote the README, and also changed the name from Boreas to Aeolus. Why? Well Aeolus is the Greek god of winds, the "Keeper of Winds", and I think that as a figure is pretty darn cool and also since Boreas means "North Wind" I'd like to keep that for the sheet cooling mod I'll be designing later on, as it'd fit perfectly, as the cooling will actually come from the north. Also spent about an hour making this really cool (in my opinion) drawing to use instead of a render, as I really don't have time to mess with Blender right now. What's pretty arn awesome in my opinion is that you can generate views from assemblies/part studios for drawings in Onshape. Haven't completely gotten the hang of it, and the elements are not centered or anything, but it'll do for now. 
+![mainpic](pics/aeolus_main_drawing.png)
+In the future, I'd like to maybe change the color scheme, make some sort of a minimalist logo (maybe an old with a long beard with gusts going outwards from him in all directions), and also adjust the line thickness and everything of the drawing. 
+
+Ah and also made the BOM. I still have to get a 683 bearing as I'm using Kevin's modified Protoxtruder version, an Omron D2F-5 switch (I'll get that from mouse with another order I'm making, as it's much cheaper than on Ali with shipping and also genuine), and also all the screws. I have a bunch of M3 screws around here but I'll probably need a set of shoulderbolts as well. Asked Kevin and he said that he got the 683 bearing from Fushi. Might request a topup to batch everything into one order. 
+Well in conclusion I'm pretty satisfied with what I've been able to achieve for a first try at making a toolhead. We'll see once I build it haha.
+
+**Time Spent: 6h**
+
