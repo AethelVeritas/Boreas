@@ -1,7 +1,10 @@
 ![mainpic](pics/aeolus_main_drawing.png)
-# Aeolus 
-*Aeolus - Greek god of the winds, also known as "Keeper of Winds".
-This a dual 5015 toolhead made for Cartesian 3D printers with an LH Stinger style belt path. 
+
+<p align="center">
+  <em>Aeolus - Greek god of the winds, also known as "Keeper of Winds".</em>
+</p>
+
+<hr style="border: none; height: 2px; background: linear-gradient(to right, transparent, #888, transparent);">
   
 # Key Features
 - Dual 5015 blowers, positioned near the nozzle using short ducts for the best airflow possible. 
